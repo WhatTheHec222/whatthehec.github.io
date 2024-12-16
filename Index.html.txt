@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Protect Yourself from Cyber Attacks</title>
+	<style>
+    	body {
+        	font-family: Arial, sans-serif;
+        	line-height: 1.6;
+        	margin: 0;
+        	padding: 0;
+        	background-color: #f4f4f9;
+        	color: #333;
+    	}
+
+    	header {
+        	background-color: #005a9c;
+        	color: #fff;
+        	padding: 20px;
+        	text-align: center;
+    	}
+
+    	header h1 {
+        	margin: 0;
+        	font-size: 2.5rem;
+    	}
+
+    	nav {
+        	background-color: #333;
+        	padding: 10px;
+    	}
+
+    	nav ul {
+        	list-style: none;
+        	margin: 0;
+        	padding: 0;
+        	display: flex;
+        	justify-content: center;
+    	}
+
+    	nav ul li {
+        	margin: 0 15px;
+    	}
+
+    	nav ul li a {
+        	color: #fff;
+        	text-decoration: none;
+        	font-weight: bold;
+    	}
+
+    	section {
+        	padding: 20px;
+        	margin: 20px;
+        	background-color: #fff;
+        	border-radius: 8px;
+        	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    	}
+
+    	section h2 {
+        	color: #005a9c;
+    	}
+
+    	footer {
+        	background-color: #333;
+        	color: #fff;
+        	text-align: center;
+        	padding: 10px;
+        	position: fixed;
+        	bottom: 0;
+        	width: 100%;
+    	}
+
+    	.content-container {
+        	max-width: 1200px;
+        	margin: 0 auto;
+    	}
+
+    	.grid {
+        	display: grid;
+        	grid-template-columns: 1fr 1fr 1fr;
+        	gap: 20px;
+    	}
+
+    	.grid div {
+        	padding: 15px;
+        	background-color: #f1f1f1;
+        	border-radius: 8px;
+        	box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    	}
+
+    	.grid div h3 {
+        	color: #333;
+    	}
+
+    	.grid div p {
+        	font-size: 0.9rem;
+    	}
+
+	</style>
+</head>
+<body>
+	<header>
+    	<h1>How to Protect Yourself from Cyber Attacks</h1>
+    	<p>Learn how to safeguard your personal information from hackers.</p>
+	</header>
+
+	<nav>
+    	<ul>
+        	<li><a href="#password-security">Password Security</a></li>
+        	<li><a href="#two-factor-authentication">Two-Factor Authentication</a></li>
+        	<li><a href="#phishing-attacks">Phishing Attacks</a></li>
+        	<li><a href="#secure-connections">Secure Connections</a></li>
+    	</ul>
+	</nav>
+
+	<div class="content-container">
+    	<section id="password-security">
+        	<h2>Password Security</h2>
+        	<p>Your password is the first line of defense against cyberattacks. Here are some tips to secure your passwords:</p>
+        	<ul>
+            	<li>Use strong, unique passwords for each account.</li>
+            	<li>Enable a password manager to store and generate complex passwords.</li>
+            	<li>Avoid using personal information (e.g., names, birthdates) in your passwords.</li>
+            	<li>Change your passwords regularly and avoid reusing old ones.</li>
+        	</ul>
+    	</section>
+
+    	<section id="two-factor-authentication">
+        	<h2>Two-Factor Authentication (2FA)</h2>
+        	<p>Two-factor authentication adds an extra layer of protection to your accounts. Here's why you should use it:</p>
+        	<ul>
+            	<li>2FA requires a second verification step, typically through an app or SMS.</li>
+            	<li>This greatly reduces the risk of someone accessing your account even if they have your password.</li>
+            	<li>Enable 2FA for your most sensitive accounts, such as email, banking, and social media.</li>
+        	</ul>
+    	</section>
+
+    	<section id="phishing-attacks">
+        	<h2>Recognizing Phishing Attacks</h2>
+        	<p>Phishing attacks are one of the most common ways hackers steal your personal information. To avoid falling victim:</p>
+        	<ul>
+            	<li>Never click on suspicious links in emails or text messages.</li>
+            	<li>Look out for signs of fake emails, such as poor grammar or unusual sender addresses.</li>
+            	<li>If in doubt, contact the company directly using official contact methods.</li>
+        	</ul>
+    	</section>
+
+    	<section id="secure-connections">
+        	<h2>Secure Connections</h2>
+        	<p>Always ensure you're using secure connections when browsing or sharing information online:</p>
+        	<ul>
+            	<li>Look for "https://" in the URL of websites, which indicates a secure connection.</li>
+            	<li>Avoid using public Wi-Fi for sensitive activities like banking or shopping.</li>
+            	<li>Consider using a VPN (Virtual Private Network) to encrypt your online activity when on public networks.</li>
+        	</ul>
+    	</section>
+
+    	<section>
+        	<h2>Additional Tips</h2>
+        	<div class="grid">
+            	<div>
+                	<h3>Update Software Regularly</h3>
+                	<p>Always keep your software, apps, and operating systems up to date to protect against known vulnerabilities.</p>
+            	</div>
+            	<div>
+                	<h3>Use Antivirus Software</h3>
+                	<p>Install reputable antivirus software to scan for malware and protect your devices from attacks.</p>
+            	</div>
+            	<div>
+                	<h3>Be Mindful of Social Media</h3>
+                	<p>Be careful what personal information you share online, as hackers can use it to guess passwords or security questions.</p>
+            	</div>
+        	</div>
+    	</section>
+	</div>
+
+	<footer>
+    	<p>&copy; 2024 Cybersecurity Tips | All Rights Reserved</p>
+	</footer>
+</body>
+</html>
+
+
