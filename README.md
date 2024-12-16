@@ -1,2 +1,1 @@
-# whatthehec.github.io
-heyyy gys 
+# whatthehec.github.io        
